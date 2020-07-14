@@ -1,3 +1,4 @@
+# dictionary of us states and symbols
 us_state_abbrev = {
     'alabama': 'al',
     'alaska': 'ak',
