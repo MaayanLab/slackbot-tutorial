@@ -7,6 +7,7 @@ api = CovId19Data(force=False)
 
 res = api.get_stats()
 
+# GLOBAL STATS
 def get_stats():
     confirmed = str("{:,}".format(res['confirmed']))
     recovered = str("{:,}".format(res['recovered']))
@@ -18,6 +19,7 @@ def get_stats():
             ":black_small_square: *Deaths:* " + deaths
             )
 
+# STATS BY COUNTRY
 def stats_country(country):
     res = api.filter_by_country(country)
     confirmed = str("{:,}".format(res['confirmed']))
@@ -33,7 +35,7 @@ def stats_country(country):
             )
 
 ##############################################################################
-# States Data
+# STATS BY STATE
 from states_info import *
 
 def stats_us():
