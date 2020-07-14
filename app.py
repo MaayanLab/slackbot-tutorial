@@ -11,6 +11,7 @@ slack_events_adapter = SlackEventAdapter((os.environ['SLACK_SIGNING_SECRET']), "
 # Initialize a Web API client
 slack_web_client = WebClient(os.environ['SLACK_BOT_TOKEN'])
 
+################################################################################
 # SLACK EVENTS
 @slack_events_adapter.on("message")
 def message_sent(event_data):
@@ -25,6 +26,7 @@ def message_sent(event_data):
         return make_response("", 200)
 
 ################################################################################
+# Example functions to provide COVID stats
 from covid_info import *
 from covid.api import CovId19Data
 
