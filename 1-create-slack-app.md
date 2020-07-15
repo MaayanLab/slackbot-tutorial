@@ -25,7 +25,6 @@ We want to add **Bot Token Scopes**. In our case, we will want to add:
 - **commands**: allows the addition of shortcuts and/or slash commands that people can use
 - **im:history**: allows the bot to view messages/content in dms
 
-Now that you have added scopes, you can **install your app** to your workspace!
-
-
 <img width="719" alt="Screen Shot 2020-07-15 at 3 34 18 PM" src="https://user-images.githubusercontent.com/66278476/87587864-af8cb780-c6b0-11ea-9574-c3f10686d95c.png">
+
+Now that you have added scopes, you can **install your app** to your workspace! :tada: :sparkles: :tada:
