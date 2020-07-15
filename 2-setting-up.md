@@ -1,11 +1,11 @@
 # Setting Up
-### Retrieve Tokens
+## Retrieve Tokens
 
 After you've installed the app, you will be brought back to the app's landing page. There will now be a **Bot User OAuth Access Token**. This is a very important piece of information that we will need later. This slack bot token allows you to call the methods described by the scopes you requested during installation. KEEP THIS SAFE!! It is an identifying sensitive piece of information about your bot!
 
 The other piece of information that we will need is the **Slack Signing Secret**, which is used to enforce that all events are coming from Slack to keep your app secure. This can be found under the Basic Information section. 
 
-### Creating Project Folder and Files
+## Creating Project Folder and Files
 In terminal, you can create a new project folder and set up your virtual environment. 
 ```
 $ mkdir Project_Name
