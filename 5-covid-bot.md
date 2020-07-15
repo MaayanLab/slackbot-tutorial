@@ -24,7 +24,7 @@ For our bot, we can achieve our goals through the use of slash commands. Let's s
 
 #### /stats command: 
 - **This command provides updated global COVID-19 stats using JHU CSSE COVID-19 API data.**
-![Jul-14-2020 ](https://user-images.githubusercontent.com/66278476/87589356-1ad78900-c6b3-11ea-8f6b-c7a510e1cf78.gif)
+![Jul-13-2020 16-41-18](https://user-images.githubusercontent.com/66278476/87589823-d698b880-c6b3-11ea-8172-6f1d8edb0a7f.gif)
 
 #### /country command:
 - **This command provides updated COVID-19 stats for specified country using JHU CSSE COVID-19 API data.**
