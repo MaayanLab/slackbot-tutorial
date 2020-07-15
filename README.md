@@ -8,11 +8,11 @@ First, we will cover the basics about how to handle events, create slash command
 Then, using all that we learn we will create a COVID-19 slack application!
 
 ## Table of Contents
-#### [1. Creating the Slack App](1-create-slack-app.md)
-#### [2. Setting Up](2-setting-up.md)
-#### [3. Responding to Slack Events](3-responding-events.md)
-#### [4. Integrating Slash Commands](4-slash-commands.md)
-#### [5. Example App: COVID-Bot](5-covid-bot.md)
+- **[1. Creating the Slack App](1-create-slack-app.md)**
+- **[2. Setting Up](2-setting-up.md)**
+- **[3. Responding to Slack Events](3-responding-events.md)**
+- **[4. Integrating Slash Commands](4-slash-commands.md)**
+- **[5. Example App: COVID-Bot](5-covid-bot.md)**
 
 ## Link to video presentation... 
 ## Credits... 
