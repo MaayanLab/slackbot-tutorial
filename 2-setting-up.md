@@ -78,8 +78,8 @@ $ python app.py
 
 ---
 
-**Next section: [03 - Responding to Slack events](3-responding-events.md).**
+**Next section: [3. Responding to Slack Events](3-responding-events.md).**
 
-**Previous section: [01 - Creating the Slack app](1-create-slack-app.md).**
+**Previous section: [1. Creating the Slack App](1-create-slack-app.md).**
 
 **Back to the [Table of contents](README.md#table-of-contents).**
