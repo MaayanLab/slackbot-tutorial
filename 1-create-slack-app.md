@@ -1,4 +1,4 @@
-# 1. Creating the Slack App
+# Creating the Slack App
 ## **Create the App**
 
  First thing you will need to do is create an app. 
