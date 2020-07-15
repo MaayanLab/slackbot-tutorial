@@ -83,3 +83,11 @@ This a very simple condition, but it gives you an idea of how the functions are 
 ![Jul-13-2020 15-17-38](https://user-images.githubusercontent.com/66278476/87589004-938a1580-c6b2-11ea-8097-7f67c7a58d93.gif)
 
 If this is your first app you are creating, do not worry! You'll get more familiar with this over time. Some tips are to pay attention to the data being sent to your application from slack, how you want that data manipulated, and what you want your bot to present back in slack!
+
+---
+
+**Next section: [4. Integrating Slash Commands](4-slash-commands.md).**
+
+**Previous section: [2. Setting Up](2-setting-up.md).**
+
+**Back to the [Table of contents](README.md#table-of-contents).**
