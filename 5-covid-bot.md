@@ -19,4 +19,20 @@ For our bot, we can achieve our goals through the use of slash commands. Let's s
 #### Add slash commands. 
 - Add the following code to your file (as found in the *covid_info.py* file).
 #### Install app!!
-**Now you have a fully functional and useful slack application!**
+
+## Overview of Functions
+
+#### /stats command: 
+- **This command provides updated global COVID-19 stats using JHU CSSE COVID-19 API data.**
+![Jul-14-2020 ](https://user-images.githubusercontent.com/66278476/87589356-1ad78900-c6b3-11ea-8f6b-c7a510e1cf78.gif)
+
+#### /country command:
+- **This command provides updated COVID-19 stats for specified country using JHU CSSE COVID-19 API data.**
+![Jul-13-2020 16-42-54](https://user-images.githubusercontent.com/66278476/87589642-8a4d7880-c6b3-11ea-80e3-f979c881fe91.gif)
+
+#### /state command:
+- **This command provides updated COVID-19 stats for specified US state using The COVID Tracking Project API data.**
+![Jul-14-2020 ](https://user-images.githubusercontent.com/66278476/87589356-1ad78900-c6b3-11ea-8f6b-c7a510e1cf78.gif)
+
+
+**Now you have a fully functional and useful slack application!** :tada: :tada:
