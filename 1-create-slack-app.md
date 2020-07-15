@@ -28,3 +28,9 @@ We want to add **Bot Token Scopes**. In our case, we will want to add:
 <img width="719" alt="Screen Shot 2020-07-15 at 3 34 18 PM" src="https://user-images.githubusercontent.com/66278476/87587864-af8cb780-c6b0-11ea-9574-c3f10686d95c.png">
 
 Now that you have added scopes, you can **install your app** to your workspace! :tada: :sparkles: :tada:
+
+---
+
+**Next section: [2 Setting Up](2-setting-up.md).**
+
+**Back to the [Table of contents](README.md#table-of-contents).**
