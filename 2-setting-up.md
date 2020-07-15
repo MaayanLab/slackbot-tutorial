@@ -75,3 +75,11 @@ $ python app.py
 ```
 
 **Yay! Now your app is running!!** :tada: :tada:
+
+---
+
+**Next section: [03 - Responding to Slack events](3-responding-events.md).**
+
+**Previous section: [01 - Creating the Slack app](1-create-slack-app.md).**
+
+**Back to the [Table of contents](README.md#table-of-contents).**
