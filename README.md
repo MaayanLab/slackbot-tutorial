@@ -26,7 +26,9 @@ Now that you have added scopes, you can **install your app** to your workspace!
 
 ## 2. Setting Up
 ### Retrieve Tokens
+
 After you've installed the app, you will be brought back to the app's landing page. There will now be a **Bot User OAuth Access Token**. This is a very important piece of information that we will need later. This slack bot token allows you to call the methods described by the scopes you requested during installation. KEEP THIS SAFE!! It is an identifying sensitive piece of information about your bot!
+
 The other piece of information that we will need is the **Slack Signing Secret**, which is used to enforce that all events are coming from Slack to keep your app secure. This can be found under the Basic Information section. 
 
 ### Creating Project Folder and Files
@@ -38,11 +40,104 @@ $ python -m venv env/
 $ source env/bin/activate
 ```
 
-Next, 
+Next, open up your project in your code editor of choice! 
 
+Now, create a file 'requirements.txt'. Add the following lines of code:
+```
+slackclient>=2.0.0
+slackeventsapi>=2.1.0
+Flask>=1.1.2
+covid-data-api
+```
 
+You can now install these dependencies by running the following line in terminal:
+```
+$ pip3 install -r requirements.txt
+```
+
+## Start Programming the Bot
+**Adding Tokens to Virtual Environment**
+- Remember those tokens we copied before? Well now we need to add them to our virtua environment. You can do this in terminal by typing: 
+```
+$ export SLACK_BOT_TOKEN= ...
+$ export SLACK_SIGNING_SECRET= ... 
+```
+
+**Create File: app.py**
+- Create an `app.py` file to run the app.
+
+The first thing we'll need to do is import the code our app needs to run.
+
+- In `app.py` add the following code:
+
+```Python
+import os
+import logging
+from flask import Flask
+from slack import WebClient
+from slackeventsapi import SlackEventAdapter
+```
+
+- Next, let's create a Flask server, initialize the WebClient/SlackEventAdapter, and make the app runnable. Add the following lines to `app.py`:
+
+```Python
+# Initialize a Flask app to host the events adapter
+app = Flask(__name__)
+slack_events_adapter = SlackEventAdapter(os.environ['SLACK_SIGNING_SECRET'], "/slack/events", app)
+
+# Initialize a Web API client
+slack_web_client = WebClient(token=os.environ['SLACK_BOT_TOKEN'])
+
+# Make app runnable
+if __name__ == "__main__":
+   app.run(port=8080)
+```
+
+- Back in terminal, you can now run the app!
+```
+$ python app.py
+```
+
+**Yay! Now your app is running!!**
 
 ## 3. Responding to Slack Events
+Now that your app is runnning, we can now program it to respond to slack events. When running locally, you will need to tunnel requests from a public URL to your machine. We recommend [ngrok](https://ngrok.com/) to set up a tunnel. After downloading this program, you can get a url by running the following line of code in terminal:
+
+```
+$ ./ngrok http 8080
+```
+- **Note**: number will be whatever port you are running the app on
+
+Now you will be brought to the ngrok page in your terminal window. Copy the https URL.
+
+### Event Subscriptions: Setting Up
+You are all set up now to respond to slack events! 
+
+Go back to your app homepage and go to the **Events Subscription** section. 
+- Click **Enable Events**
+- Under **Request URL** enter your ngrok https link with '/slack/events' at the end.
+
+Your URL will look something like this:
+```
+https://adsfjadsf.ngrok.io/slack/events
+```
+
+- Slack will then send a challenge parameter to your app. If all goes well, it will say **verified**!
+
+### Subscribe to Bot Events
+
+Now we can subscribe to bot events. An event is essentially anything that happens in slack (message posted, file uploaded, member added, etc.). Subscribing to the events sets up the bot to “listen” for certain events. 
+
+In our case, we want to subscribe to the following:
+- **message.channels**: a message was posted to a channel
+- **message.im**: a message was posted in a direct message channel
+
+Now we can begin programming our bot to respond to events!
+
+
+
+
+
 
 ## 4. Integrating Slash Commands
 
