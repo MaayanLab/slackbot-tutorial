@@ -4,7 +4,6 @@
  First thing you will need to do is create an app. 
  - Follow the instructions [here](https://api.slack.com/)
  
- #### Create App
 <img width="719" alt="Screen Shot 2020-07-15 at 3 31 52 PM" src="https://user-images.githubusercontent.com/66278476/87587629-56bd1f00-c6b0-11ea-880d-fb47234d9d50.png">
 
 <img width="430" alt="Screen Shot 2020-07-15 at 3 30 51 PM" src="https://user-images.githubusercontent.com/66278476/87587526-34c39c80-c6b0-11ea-8d53-3d80f7961e2d.png">
