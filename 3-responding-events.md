@@ -80,6 +80,6 @@ def message_sent(event_data):
 
 This a very simple condition, but it gives you an idea of how the functions are laid out. For more information about the different events APIs, click [here](https://api.slack.com/methods). As you can see, now the bot only responds when it is mentioned!
 
-![Jul-13-2020 15-18-20](https://user-images.githubusercontent.com/66278476/87588876-6473a400-c6b2-11ea-8b94-79cad7424ddc.gif)
+![Jul-13-2020 15-17-38](https://user-images.githubusercontent.com/66278476/87589004-938a1580-c6b2-11ea-8097-7f67c7a58d93.gif)
 
 If this is your first app you are creating, do not worry! You'll get more familiar with this over time. Some tips are to pay attention to the data being sent to your application from slack, how you want that data manipulated, and what you want your bot to present back in slack!
