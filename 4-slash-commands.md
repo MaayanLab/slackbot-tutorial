@@ -26,12 +26,9 @@ def my_first_slash_command():
         text= "Hi there!")
     return make_response("", 200)
 ```
-
 When you type '/command' in the channel, your bot should respond with 'Hi there!'.
 
-**Yay!** Now you know how to create slash commands for your apps!
-
-Now we can try creating our very own application that integrates everything we have gone over!
+**Yay!** Now you know how to create slash commands for your apps! :tada: :tada: Now we can try creating our very own application that integrates everything we have gone over!
 
 --- 
 
