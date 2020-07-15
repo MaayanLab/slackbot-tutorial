@@ -10,6 +10,7 @@ Here you will have to name the command and enter a Request URL. This will be the
 ```
 https://adsfjadsf.ngrok.io/command
 ```
+<img width="454" alt="Screen Shot 2020-07-15 at 3 49 44 PM" src="https://user-images.githubusercontent.com/66278476/87589161-d350fd00-c6b2-11ea-93f4-38c8b5475171.png">
 
 ## Program Slash Command
 Back in your app.py file, add the following lines of code: 
