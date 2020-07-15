@@ -1,7 +1,7 @@
 # How to Build a Slack App!
 This is a simple tutorial about how to program a slack app using **Python** and **Flask**. 
 
-This serves as a walkthrough guide and example of the types of Slack apps you can build with Slack's Python SDK, **python-slackclient**, and **Slack Events Adapter**, which facilitates the handling of data from the Slack Events API in Python. We'll cover all the basic steps you'll need to have a fully functioning app that can listen and respond to events in slack, handle slash commands, and so much more!
+This serves as a walkthrough guide and example of the types of Slack apps you can build with Slack's Python SDK, [**python-slackclient**](https://github.com/slackapi/python-slackclient), and [**Slack Events Adapter**](https://github.com/slackapi/python-slack-events-api), which facilitates the handling of data from the Slack Events API in Python. We'll cover all the basic steps you'll need to have a fully functioning app that can listen and respond to events in slack, handle slash commands, and so much more!
 
 First, we will cover the basics about how to handle events, create slash commands, and more!
 
