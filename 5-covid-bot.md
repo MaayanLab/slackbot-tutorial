@@ -42,3 +42,9 @@ For our bot, we can achieve our goals through the use of slash commands. Let's s
 
 
 **Now you have a fully functional and useful slack application!** :tada: :tada:
+
+---
+
+**Previous section: [4. Integrating Slash Commands](4-slash-commands.md).**
+
+**Back to the [Table of contents](README.md#table-of-contents).**
