@@ -31,6 +31,6 @@ Now that you have added scopes, you can **install your app** to your workspace! 
 
 ---
 
-**Next section: [2 Setting Up](2-setting-up.md).**
+**Next section: [2. Setting Up](2-setting-up.md).**
 
 **Back to the [Table of contents](README.md#table-of-contents).**
