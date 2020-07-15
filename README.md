@@ -55,7 +55,7 @@ You can now install these dependencies by running the following line in terminal
 $ pip3 install -r requirements.txt
 ```
 
-## Start Programming the Bot
+### Start Programming the Bot
 **Adding Tokens to Virtual Environment**
 - Remember those tokens we copied before? Well now we need to add them to our virtua environment. You can do this in terminal by typing: 
 ```
