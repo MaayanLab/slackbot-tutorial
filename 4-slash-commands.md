@@ -32,3 +32,11 @@ When you type '/command' in the channel, your bot should respond with 'Hi there!
 **Yay!** Now you know how to create slash commands for your apps!
 
 Now we can try creating our very own application that integrates everything we have gone over!
+
+--- 
+
+**Next section: [5. Example App: COVID Bot](5-covid-bot.md).**
+
+**Previous section: [3. Responding to Slack Events](3-responding-events.md).**
+
+**Back to the [Table of contents](README.md#table-of-contents).**
