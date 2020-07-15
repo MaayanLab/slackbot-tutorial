@@ -74,4 +74,4 @@ if __name__ == "__main__":
 $ python app.py
 ```
 
-**Yay! Now your app is running!!**
+**Yay! Now your app is running!!** :tada: :tada:
