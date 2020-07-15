@@ -30,14 +30,14 @@ $ pip3 install -r requirements.txt
 ```
 
 ## Start Programming the Bot
-**Adding Tokens to Virtual Environment**
+### Adding Tokens to Virtual Environment
 - Remember those tokens we copied before? Well now we need to add them to our virtua environment. You can do this in terminal by typing: 
 ```
 $ export SLACK_BOT_TOKEN= ...
 $ export SLACK_SIGNING_SECRET= ... 
 ```
 
-**Create File: app.py**
+### Create File: app.py
 - Create an `app.py` file to run the app.
 
 The first thing we'll need to do is import the code our app needs to run.
