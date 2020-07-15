@@ -195,6 +195,13 @@ Now we can try creating our very own application that integrates everything we h
 ## 5. Example App: COVID-Bot
 For this tutorial, we will create a simple slack bot that responds to requests for up to date COVID-19 statistics through slash commands. Users can request information for specific countries or states as well. 
 
+During the past couple months, many projects focusing on the collection and analysis of COVID-19 data have been started. For us, that means that there is a lot of data out there to analyze, and there are countless APIs that make this data easily accessible. 
+
+For this bot, we will be using APIs from two projects. 
+
+### The COVID Tracking Project
+The COVID Tracking Project is an effort by [The Atlantic](https://www.theatlantic.com/) that aims to provide the pubic with the most complete data about COVID-19 in the US. In addition to their website, they also offer a publicly available [API](https://covidtracking.com/data/api) that can be used to retrieve up-to-date, state specific and US COVID-19 information. 
+
 
 
 ## 6. Running the App
