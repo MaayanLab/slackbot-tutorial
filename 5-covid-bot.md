@@ -1,4 +1,4 @@
-# Example App: COVID-Bot
+# :sparkles: Example App: COVID-Bot
 For this tutorial, we will create a simple slack bot that responds to requests for up to date **COVID-19 statistics** through **slash commands**. Users can request information for specific countries or states as well. 
 
 During the past couple months, many projects focusing on the collection and analysis of COVID-19 data have been started. For us, that means that there is a lot of data out there to analyze, and there are countless APIs that make this data easily accessible. 
