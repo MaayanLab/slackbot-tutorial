@@ -1,10 +1,10 @@
-# Responding to Slack Events
+# :sparkles: Responding to Slack Events
 Now that your app is runnning, we can now program it to respond to slack events. When running locally, you will need to tunnel requests from a public URL to your machine. We recommend [ngrok](https://ngrok.com/) to set up a tunnel. After downloading this program, you can get a url by running the following line of code in terminal:
 
 ```
 $ ./ngrok http 8080
 ```
-- **Note**: number will be whatever port you are running the app on
+> **Note**: number will be whatever port you are running the app on
 
 Now you will be brought to the ngrok page in your terminal window. Copy the https URL.
 
@@ -82,7 +82,8 @@ This a very simple condition, but it gives you an idea of how the functions are 
 
 ![Jul-13-2020 15-17-38](https://user-images.githubusercontent.com/66278476/87589004-938a1580-c6b2-11ea-8097-7f67c7a58d93.gif)
 
-If this is your first app you are creating, do not worry! You'll get more familiar with this over time. Some tips are to pay attention to the data being sent to your application from slack, how you want that data manipulated, and what you want your bot to present back in slack!
+If this is your first app that you are creating, do not worry! You'll get more familiar with this over time. 
+> :star: Some tips are to pay attention to the data being sent to your application from slack, how you want that data manipulated, and what you want your bot to present back in slack!
 
 ---
 
