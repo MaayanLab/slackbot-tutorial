@@ -21,10 +21,10 @@ The [COVID-19 Dashboard](https://www.arcgis.com/apps/opsdashboard/index.html#/bd
 
 For our bot, we can achieve our goals through the use of slash commands. Let's say someone uses a command '/state' or '/country' followed by their state or country of interest. The bot can then display stats based on the user input. We know how to do this! Let's follow some steps that we went through before.
 
-#### Create an app (or modify the tutorial bot). 
-#### Add slash commands. 
+**Create an app (or modify the tutorial bot).**
+**Add slash commands.**
 - Add the following code to your file (as found in the [*covid_info.py*](covid_info.py) file).
-#### Install app!!
+**Install app!!**
 
 ## Overview of Functions
 
