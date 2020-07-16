@@ -1,4 +1,4 @@
-# Creating the Slack App
+# :sparkles: Creating the Slack App
 ## **Create the App**
 
  First thing you will need to do is create an app. 
@@ -15,7 +15,7 @@ In order to start configuring the app, we have to decide what we want our app to
 
 <img width="719" alt="Screen Shot 2020-07-15 at 3 32 50 PM" src="https://user-images.githubusercontent.com/66278476/87587718-76ecde00-c6b0-11ea-848d-3e78840e0506.png">
 
-If you scroll down on that part, you’ll find the scope’s sections. Scopes are essentially what give your app permission to perform functionality in your slack workspace. A Slack app's capabilities and permissions are governed by the scopes it requests.
+If you scroll down on that part, you’ll find the scope’s sections. **Scopes** are essentially what give your app permission to perform functionality in your slack workspace. A Slack app's capabilities and permissions are governed by the scopes it requests.
 
 <img width="256" alt="Screen Shot 2020-07-15 at 3 33 28 PM" src="https://user-images.githubusercontent.com/66278476/87587794-9257e900-c6b0-11ea-9592-6097530e7a37.png">
 
