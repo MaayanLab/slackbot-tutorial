@@ -1,7 +1,8 @@
-# Setting Up
+# :sparkles: Setting Up
 ## Retrieve Tokens
 
-After you've installed the app, you will be brought back to the app's landing page. There will now be a **Bot User OAuth Access Token**. This is a very important piece of information that we will need later. This slack bot token allows you to call the methods described by the scopes you requested during installation. KEEP THIS SAFE!! It is an identifying sensitive piece of information about your bot!
+After you've installed the app, you will be brought back to the app's landing page. There will now be a **Bot User OAuth Access Token**. This is a very important piece of information that we will need later. This slack bot token allows you to call the methods described by the scopes you requested during installation. 
+> :star: KEEP THIS SAFE!! It is an sensitive piece of identifying information about your bot!
 
 <img width="719" alt="Screen Shot 2020-07-15 at 3 36 42 PM" src="https://user-images.githubusercontent.com/66278476/87588048-04303280-c6b1-11ea-8b57-ac908de0f0a3.png">
 
@@ -40,7 +41,7 @@ $ export SLACK_SIGNING_SECRET= ...
 ```
 
 ### Create File: app.py
-- Create an `app.py` file to run the app.
+- Create an `app.py` file to run the app (or copy [this one](app.py)).
 
 The first thing we'll need to do is import the code our app needs to run.
 
