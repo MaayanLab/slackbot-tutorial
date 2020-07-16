@@ -23,7 +23,7 @@ For our bot, we can achieve our goals through the use of slash commands. Let's s
 
 #### Create an app (or modify the tutorial bot). 
 #### Add slash commands. 
-- Add the following code to your file (as found in the *covid_info.py* file).
+- Add the following code to your file (as found in the [*covid_info.py*](covid_info.py) file).
 #### Install app!!
 
 ## Overview of Functions
