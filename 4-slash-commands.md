@@ -1,5 +1,5 @@
-# Integrating Slash Commands
-Next feature we will be exploring are slash commands. These are fairly simple to program. 
+# :sparkles: Integrating Slash Commands
+Next feature we will be exploring are **slash commands**, which allow users to invoke your app by typing a string into the message composer box. These fairly simple to program. 
 
 ## Create Slash Command for App
 First step, go to your app home page. Under **Slash Commands**, click create new command. 
