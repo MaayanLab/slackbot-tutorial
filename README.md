@@ -1,5 +1,5 @@
 # :sparkles: How to Build a Slack App!
-This is a simple tutorial about how to program a slack app using **Python** and **Flask**.
+This is a simple tutorial on how to program a slack app using **Python** and **Flask**.
 
 This serves as a walkthrough guide and example of the types of Slack apps you can build with Slack's Python SDK, [**python-slackclient**](https://github.com/slackapi/python-slackclient), and [**Slack Events Adapter**](https://github.com/slackapi/python-slack-events-api), which facilitates the handling of data from the Slack Events API in Python. 
 
