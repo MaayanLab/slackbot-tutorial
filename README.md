@@ -14,5 +14,8 @@ We'll cover all the basic steps you'll need to have a fully functioning app that
 - **[4. Integrating Slash Commands](4-slash-commands.md)**
 - **[5. Example App: COVID-Bot](5-covid-bot.md)**
 
-## Link to video presentation... 
-## Credits... 
+## Video Presentation
+[<img width="550" alt="Screen Shot 2020-07-18 at 8 38 14 AM" src="https://user-images.githubusercontent.com/66278476/87852687-1d63f980-c8d2-11ea-8970-22b016d41a8a.png">](https://youtu.be/tEH-x1TmGVE)
+
+## Credits
+This tutorial was originally created by @juliekaram and The Ma'ayan Laboratory at the Icahn School of Medicine at Mount Sinai.
